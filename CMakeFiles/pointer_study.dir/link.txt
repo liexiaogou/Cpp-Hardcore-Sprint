@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/pointer_study.dir/pointer_test.cpp.o -o pointer_study 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/my_tesla_app.dir/hello_Tesla.cpp.o CMakeFiles/my_tesla_app.dir/log.cpp.o CMakeFiles/my_tesla_app.dir/Math.cpp.o -o my_tesla_app 
