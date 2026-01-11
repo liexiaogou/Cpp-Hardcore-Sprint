@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/tesla_fleet.dir/tesla_fleet.cpp.o CMakeFiles/tesla_fleet.dir/Tesla.cpp.o -o tesla_fleet 

@@ -1,3 +1,0 @@
-/root/projects/learning/build/CMakeFiles/tesla_fleet.dir
-/root/projects/learning/build/CMakeFiles/edit_cache.dir
-/root/projects/learning/build/CMakeFiles/rebuild_cache.dir

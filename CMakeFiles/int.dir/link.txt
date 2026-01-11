@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/int.dir/int.cpp.o CMakeFiles/int.dir/log.cpp.o -o int 
