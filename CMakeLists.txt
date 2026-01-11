@@ -7,4 +7,6 @@ project(TeslaLearning)               # 项目名字
 #add_executable(tesla_Car tesla_class.cpp Tesla.cpp)
 #add_executable(smart_study smart_pointer.cpp)
 #add_executable(int int.cpp log.cpp)
+#add_executable(vect vector_test.cpp)
 add_executable(tesla_fleet tesla_fleet.cpp Tesla.cpp)
+add_executable(physics physics_test.cpp)

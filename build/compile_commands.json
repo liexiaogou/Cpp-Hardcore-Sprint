@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/root/projects/learning/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/tesla_fleet.dir/tesla_fleet.cpp.o -c /root/projects/learning/tesla_fleet.cpp",
+  "file": "/root/projects/learning/tesla_fleet.cpp",
+  "output": "CMakeFiles/tesla_fleet.dir/tesla_fleet.cpp.o"
+},
+{
+  "directory": "/root/projects/learning/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/tesla_fleet.dir/Tesla.cpp.o -c /root/projects/learning/Tesla.cpp",
+  "file": "/root/projects/learning/Tesla.cpp",
+  "output": "CMakeFiles/tesla_fleet.dir/Tesla.cpp.o"
+},
+{
+  "directory": "/root/projects/learning/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/physics.dir/physics_test.cpp.o -c /root/projects/learning/physics_test.cpp",
+  "file": "/root/projects/learning/physics_test.cpp",
+  "output": "CMakeFiles/physics.dir/physics_test.cpp.o"
+}
+]
