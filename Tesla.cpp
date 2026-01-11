@@ -24,7 +24,7 @@ void TeslaCar::scanEnvironment(int * ptr,int size){
          std::cout<<">> 最近障碍物距离:"<<minDistance<<"cm"<<std::endl;
 
            // 决策层：根据感知结果下达指令
-         if(minDistance<20){
+         if(minDistance<80){
             brake();// 直接调用自己的成员函数
          }else{
             std::cout<<">> 路径安全，继续巡航。"<<std::endl;

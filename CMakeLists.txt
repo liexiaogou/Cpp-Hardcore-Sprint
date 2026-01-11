@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10) # 要求 CMake 的最低版本
-
+set(CMAKE_BUILD_TYPE Debug)
 project(TeslaLearning)               # 项目名字
 
 #add_executable(my_tesla_app hello_Tesla.cpp log.cpp Math.cpp ) # 告诉它：用这两个文件生成一个叫 my_tesla_app 的程序
