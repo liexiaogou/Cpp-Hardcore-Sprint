@@ -54,7 +54,7 @@ int main(){
     // std::move 的意思是：把这辆车的所有权“过户”给 vector，而不是复制它
     fleet.push_back(std::make_unique<TeslaCar<float>>("Model S",100,Vector3<float>(0,0,0)));
     fleet.push_back(std::make_unique<TeslaCar<float>>("Model 3",80,Vector3<float>(10,0,0)));
-     fleet.push_back(std::make_unique<CyberTruck<float>>(100, Vector3<float>(100, 100, 0)));
+    fleet.push_back(std::make_unique<CyberTruck<float>>(100, Vector3<float>(100, 100, 0)));
     
     // 3. 遍历时也要注意
     //int radarDate[5]={100,50,15,80,200};

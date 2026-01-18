@@ -1,14 +1,14 @@
 [
 {
   "directory": "/root/projects/learning/build",
-  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/vision_study.dir/vision_test.cpp.o -c /root/projects/learning/vision_test.cpp",
-  "file": "/root/projects/learning/vision_test.cpp",
-  "output": "CMakeFiles/vision_study.dir/vision_test.cpp.o"
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/vision_sobel.dir/vision_sobel.cpp.o -c /root/projects/learning/vision_sobel.cpp",
+  "file": "/root/projects/learning/vision_sobel.cpp",
+  "output": "CMakeFiles/vision_sobel.dir/vision_sobel.cpp.o"
 },
 {
   "directory": "/root/projects/learning/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/33.dir/tesla_logger.cpp.o -c /root/projects/learning/tesla_logger.cpp",
-  "file": "/root/projects/learning/tesla_logger.cpp",
-  "output": "CMakeFiles/33.dir/tesla_logger.cpp.o"
+  "command": "/usr/bin/g++  -isystem /usr/include/opencv4 -g -o CMakeFiles/multi_cam.dir/tesla_multi_cam.cpp.o -c /root/projects/learning/tesla_multi_cam.cpp",
+  "file": "/root/projects/learning/tesla_multi_cam.cpp",
+  "output": "CMakeFiles/multi_cam.dir/tesla_multi_cam.cpp.o"
 }
 ]

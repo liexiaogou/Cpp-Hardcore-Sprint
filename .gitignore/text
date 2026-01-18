@@ -1,0 +1,22 @@
+# 忽略文件夹
+build/
+.vscode/
+
+# 忽略所有生成的二进制程序
+33
+AI
+ATO
+BMS
+mt_tesla
+map_tesla
+TS
+vision_study
+physics_sim
+tesla_fleet
+tesla_logger
+tesla_analytics
+
+# 忽略图片输出（可选，如果你不想把处理后的图传上去）
+vision_output.jpg
+vision_edge.jpg
+tesla_log.csv

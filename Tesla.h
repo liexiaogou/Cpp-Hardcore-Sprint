@@ -17,6 +17,16 @@ protected: // 🛡️ 允许子类访问
 
     std::deque<T>sensorHistory; // 存储最近几帧的距离数据
     const int filterSize=3;      // 滤波窗口大小
+
+    //Date Time 1.18
+    // 🚀 这就是你选择的 SoA 布局：把 X, Y, Z 坐标分三个数组存
+    // 这种布局对 5080 显卡和 9800X3D 的并行运算极度友好
+    struct TrajectorySoA {
+        std::vector<T>x_path;
+        std::vector<T>y_path;
+        std::vector<T>z_path;
+    }history;
+
 public:
     // 🚀 构造函数顺序：名字(m), 电量(b), 位置(startPos)
     TeslaCar(std::string m,int b,Vector3<T>startPos)
@@ -72,6 +82,15 @@ public:
         if ((std::rand() % 100) < 10) return std::nullopt; // 模拟 10% 掉线
         return static_cast<T>(std::rand() % 200);
     }
+
+    //Date Time 1.18
+    // 🚀 核心功能：记录当前位置到 SoA 历史中
+    void recordCurrentPosition(){
+        history.x_path.push_back(position.x);
+        history.y_path.push_back(position.y);
+        history.z_path.push_back(position.z);
+    }
+    size_t getHistorySize()const{return history.x_path.size();}
 };
 
 // 🚀 2. 子类 CyberTruck 也必须是模板类，并继承自 TeslaCar<T>
